@@ -68,7 +68,7 @@ st.title('Lets explore the Graduate Admission Dataset')
 # Create a text element and let the reader know the data is loading.
 data_load_state = st.text('Loading graduate admissions dataset...')
 # Load 500 rows of data into the dataframe.
-df = load_data(500)
+df = load_data(task1/500)
 # Notify the reader that the data was successfully loaded.
 data_load_state.text('Loading graduate admissions dataset...Completed!')
 
