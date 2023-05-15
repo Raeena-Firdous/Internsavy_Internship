@@ -32,7 +32,7 @@ st.markdown(
          unsafe_allow_html=True
      )
 
-img = Image.open('toefl.jpg')
+img = Image.open('task1/toefl.jpg')
 new_image = img.resize((1000, 500))
 st.image(new_image,caption = 'Graduate Admission Dataset')
 
