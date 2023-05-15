@@ -125,7 +125,7 @@ import pickle
 
 if st.sidebar.checkbox('View Prediction Model'):
     st.subheader('Prediction Model')
-    pickle_in = open('randomclassifier.pkl', 'rb')
+    pickle_in = open('task1/randomclassifier.pkl', 'rb')
     model = pickle.load(pickle_in)
 
     @st.cache()
