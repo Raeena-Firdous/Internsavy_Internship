@@ -15,7 +15,7 @@ import numpy as np
 st.set_page_config(page_title='GAD Analysis',page_icon = 'logo.png', layout = 'wide', initial_sidebar_state = 'auto')
 sns.set(rc={'figure.figsize':(20,15)})
 
-DATA_URL = ('Admission_Predict_Ver1.1.csv')
+DATA_URL = ('task1/Admission_Predict_Ver1.1.csv')
 
 st.markdown('# Graduate Admission Dataset')
 st.markdown('### **Analysis of Graduate Admission Dataset**')
@@ -68,7 +68,7 @@ st.title('Lets explore the Graduate Admission Dataset')
 # Create a text element and let the reader know the data is loading.
 data_load_state = st.text('Loading graduate admissions dataset...')
 # Load 500 rows of data into the dataframe.
-df = load_data(task1/500)
+df = load_data(500)
 # Notify the reader that the data was successfully loaded.
 data_load_state.text('Loading graduate admissions dataset...Completed!')
 
